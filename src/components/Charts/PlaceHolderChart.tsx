@@ -1,4 +1,3 @@
-// src/components/Charts/PlaceholderChart.tsx
 import { useCampaignStore } from "../../store/useCampaignStore";
 import {
   LineChart,

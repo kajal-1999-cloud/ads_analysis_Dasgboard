@@ -1,5 +1,3 @@
-// src/components/Streaming/LiveMetricsTable.tsx
-import React from "react";
 import { useCampaignStore } from "../../store/useCampaignStore";
 import type { StreamInsight } from "../../utils/types";
 

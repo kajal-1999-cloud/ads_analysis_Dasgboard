@@ -1,5 +1,3 @@
-// src/components/Streaming/AlertBox.tsx
-import React from "react";
 
 export default function AlertBox({ alerts }: { alerts: string[] }) {
   if (!alerts || alerts.length === 0) {

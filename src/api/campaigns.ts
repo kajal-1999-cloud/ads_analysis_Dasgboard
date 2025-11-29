@@ -1,5 +1,3 @@
-
-
 import type { CampaignInsightResponse, CampaignResponse, GlobalInsightsResponse } from "../utils/types";
 import { api } from "./apiClient";
 

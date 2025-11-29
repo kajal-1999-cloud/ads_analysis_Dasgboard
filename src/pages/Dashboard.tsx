@@ -1,6 +1,3 @@
-
-
-
 import Header from "../components/Layout/Header";
 import Section from "../components/Layout/Section";
 import CampaignFilters from "../components/Campaign/CampaignFilters";
