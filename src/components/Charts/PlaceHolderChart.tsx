@@ -65,7 +65,9 @@ export default function PlaceholderChart({ height = 300 }: any) {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
           <YAxis />
-          <Tooltip formatter={(value) => new Intl.NumberFormat().format(value)} />
+            <Tooltip formatter={(value) =>
+          typeof value === "number" ? new Intl.NumberFormat().format(value) : value
+           } />
           <Legend />
 
           <Line type="monotone" dataKey="impressions" stroke="#8884d8" strokeWidth={2} />

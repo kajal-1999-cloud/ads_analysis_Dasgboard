@@ -40,7 +40,7 @@ interface Store {
   streamSource: EventSource | null;
 
   fetchCampaigns: () => Promise<void>;
-  fetchCampaignDetails: () => Promise<void>;
+  fetchCampaignDetails: (id: string) => Promise<void>;
   fetchGlobalInsights: () => Promise<void>;
   selectCampaign: (id: string) => Promise<void>;
   fetchCampaignInsight: (id: string) => Promise<void>;
